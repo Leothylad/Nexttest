@@ -1,7 +1,9 @@
+import Navbar from '../components/navbar/Navbar'
 
 function about() {
   return <div>
-      <h1> Leo is the best </h1>
+<Navbar />
+      <h1> Leo is pog </h1>
   </div>;
 }
 
