@@ -1,6 +1,5 @@
 import Link from "next/link";
-import css from 'styled-jsx/css'
-import Link from "next/link";
+
 
 function Navbar() {
   return <>
