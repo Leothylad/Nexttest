@@ -3,7 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 function about() {
   return <div>
 <Navbar />
-      <h1>Cyero Cafe</h1>
+      <h1>Leo website</h1>
   </div>;
 }
 

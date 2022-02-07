@@ -5,8 +5,8 @@ function Navbar() {
   <nav>
       <div className="logo"></div>
       <div className="links">
-         <Link href = "/">< a >Hola</a></Link> 
-         <Link href = "/about">< a >Cafe</a></Link> 
+         <Link href = "/">< a >Home</a></Link> 
+         <Link href = "/about">< a >About</a></Link> 
       </div>
       <div className="social"></div>
   </nav>
