@@ -1,6 +1,6 @@
 import Link from "next/link";
 import css from 'styled-jsx/css'
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub, FaDiscord } from 'react-icons/fa'
 
 function Navbar() {
   return <>
@@ -16,6 +16,9 @@ function Navbar() {
       <div className="social">
         < a href = "https://github.com/Leothylad">
           <FaGithub />
+        </a>
+        <a href = "https://discord.gg/JCn4jATCzE">
+          <FaDiscord />
         </a>
       </div>
   </nav>
