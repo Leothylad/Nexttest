@@ -1,5 +1,6 @@
 import Link from "next/link";
 import css from 'styled-jsx/css'
+import { FaGithub } from 'react-icons/fa'
 
 function Navbar() {
   return <>
@@ -12,7 +13,11 @@ function Navbar() {
          <Link href = "/">< a >Home</a></Link> 
          <Link href = "/about">< a >Other</a></Link> 
       </div>
-      <div className="social"></div>
+      <div className="social">
+        < a href = "https://github.com/Leothylad">
+          <FaGithub />
+        </a>
+      </div>
   </nav>
   </>;
 }
