@@ -3,6 +3,7 @@ import css from 'styled-jsx/css'
 
 function Navbar() {
   return <>
+  <style jsx> {style} </style>
   <nav>
       <div className="logo"></div>
       <div className="links">
