@@ -1,11 +1,12 @@
-import Navbar from '../components/navbar/Navbar'
+import Navbar from "../components/navbar/Navbar";
 
 function about() {
-  return <div>
-<Navbar />
+  return (
+    <div>
+      <Navbar />
       <h1>This is leo about website</h1>
-  </div>;
+    </div>
+  );
 }
 
-export default about
-
+export default about;
