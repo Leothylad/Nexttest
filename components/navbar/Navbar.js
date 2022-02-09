@@ -3,9 +3,11 @@ import css from 'styled-jsx/css'
 
 function Navbar() {
   return <>
-  <style jsx> {style} </style>
+  <style jsx> {styles} </style>
   <nav>
-      <div className="logo"></div>
+      <div className="logo">
+        {/* <Link href = "/"> <img src = "https://www.pngkey.com/png/full/182-1827361_tag-texture-dirt-nova-minecraft-grass-block.png"/></Link> */}
+      </div>
       <div className="links">
          <Link href = "/">< a >Home</a></Link> 
          <Link href = "/about">< a >Other</a></Link> 
@@ -21,6 +23,7 @@ nav {
   align-items: center;
   font-size: 20px;
   padding: 20px;
+  background-color: rgb(28, 28, 28);
 }
 .logo {
   margin-right: auto;
