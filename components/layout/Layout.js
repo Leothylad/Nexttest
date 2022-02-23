@@ -1,9 +1,23 @@
-import Navbar from '../navbar/Navbar'
+import Navbar from "../navbar/Navbar";
 
-function Layout() {
+function Layout({children}) {
   return (
-    <div>Layout</div>
-  )
+    <>
+      <style jsx>
+        {`
+          .container {
+            max-width: 1024px;
+            margin: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+            flex: 1 0 auto;
+          }
+        `}
+      </style>
+      <Navbar />
+      <main className="container">{children}</main>
+    </>
+  );
 }
 
-export default Layout
+export default Layout;

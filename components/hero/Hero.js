@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import css from "styled-jsx/css";
+import Button from "../button/Button"
 
 function Hero({ Heading, subHeading, buttonText, bgImage }) {
   return (
@@ -12,6 +13,7 @@ function Hero({ Heading, subHeading, buttonText, bgImage }) {
         background-repeat: no-repeat;
           background-position: right center;
           background-size: 300px;
+          min-height:300px;
         }
       }
     `}</style>
@@ -21,7 +23,7 @@ function Hero({ Heading, subHeading, buttonText, bgImage }) {
           <p>{subHeading}</p>
           <Link href="/about">
             <a>
-              <button>{buttonText}</button>
+              <Button >{buttonText}</Button>
             </a>
           </Link>
         </div>

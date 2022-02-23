@@ -2,9 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Quintessential', sans-serif;
-    background-color: rgb(60, 144, 165);
-    color: rgb(192, 219, 238);
+  font-family: "Quintessential", sans-serif;
+  background-color: rgb(60, 144, 165);
+  color: rgb(192, 219, 238);
 }
 
 a {
@@ -14,4 +14,23 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+h2 {
+  font-weight: 800;
+  font-size: 65px;
+  line-height: 72px;
+  padding-top: 52px;
+  padding-bottom: 36px;
+  margin: 0;
 }

@@ -1,10 +1,10 @@
-import Navbar from "../components/navbar/Navbar";
+import Card from "../components/card/Card";
 import Hero from "../components/hero/Hero";
-
+import Layout from "../components/layout/Layout";
+import SectionBreak from "../components/sectionbreak/SectionBreak";
 function Home() {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <h1>This is leo website</h1>
       <Hero
         heading="Hello I am leo"
@@ -12,7 +12,32 @@ function Home() {
         buttonText="Click"
         bgImage="/bgGif.gif"
       />
-    </div>
+      <SectionBreak />
+      <h2> Pogjects</h2>
+      <div className="flex justify-space-evenly flew-wrap">
+        <Card
+          image="/project.jpeg"
+          alt="hi"
+          title="Leo"
+          text="leo"
+          buttonText="Click"
+        />
+        <Card
+          image="/project.jpeg"
+          alt="hi"
+          title="Leo"
+          text="leo"
+          buttonText="Click"
+        />
+        <Card
+          image="/project.jpeg"
+          alt="hi"
+          title="Leo"
+          text="leo"
+          buttonText="Click"
+        />
+      </div>
+    </Layout>
   );
 }
 
