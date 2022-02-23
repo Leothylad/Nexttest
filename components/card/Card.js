@@ -1,6 +1,6 @@
 import React from "react";
 import css from "styled-jsx/css";
-import Image from "next/Image";
+import Image from "next/image";
 import Button from "../button/Button";
 function Card({ image, alt, title, text, buttonText, buttonLink }) {
   return (
