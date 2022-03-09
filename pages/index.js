@@ -2,6 +2,7 @@ import Card from "../components/card/Card";
 import Hero from "../components/hero/Hero";
 import Layout from "../components/layout/Layout";
 import SectionBreak from "../components/sectionbreak/SectionBreak";
+import ContactForm from "../components/contactForm/ContactForm";
 function Home() {
   return (
     <Layout>
@@ -37,6 +38,7 @@ function Home() {
           buttonText="Click"
         />
       </div>
+      <ContactForm />
     </Layout>
   );
 }
