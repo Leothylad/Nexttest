@@ -14,7 +14,7 @@ function Home() {
         bgImage="/bgGif.gif"
       />
       <SectionBreak />
-      <h2> Projects</h2>
+      <h2>proj test</h2>
       <div className="flex justify-space-evenly flew-wrap">
         <Card
           image="/project.jpeg"
